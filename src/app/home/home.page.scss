@@ -1,27 +1,31 @@
-#container {
-  text-align: center;
+h1, h2{
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  font-weight: bold;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+h2{
+
+  font-size: 14pt;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+.ml-auto{
 
-  color: #8c8c8c;
-
-  margin: 0;
+  margin-left: auto;
 }
 
-#container a {
-  text-decoration: none;
+.daily-scenary-cover-image{
+    height: 10em;
+    width: 100%;
+    object-fit: cover;
+}
+
+.daily-scenary-avatar{
+  height: 3em;
+  width: 3em;
+  margin-left: 5px;
+}
+
+.master-avatar{
+  height: 3em;
+  width: 3em;
 }
